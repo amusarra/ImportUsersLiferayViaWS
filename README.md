@@ -12,8 +12,8 @@ A few days ago, I made a simple example of using the Liferay Client Library. The
 	* Checking the sites or groups with which to associate the user
 	* Add user on Liferay
 
-	$ git clone git://github.com/amusarra/import-users-liferay-via-ws.git
-	$ cd import-users-liferay-via-ws/
+	$ git clone git://github.com/amusarra/ImportUsersLiferayViaWS.git
+	$ cd ImportUsersLiferayViaWS.git/
 	$ mvn package
 	
 List 1. Clone repository and build the package
@@ -37,10 +37,11 @@ List 2. Run the portal client example
 	
 List 3. Show the performed tasks.
 
-![Figure 1 – List of new imported users](http://musarra.files.wordpress.com/2013/05/screen-shot-2013-05-23-at-23-59-20.png)
-![Figure 2 – User details view](http://musarra.files.wordpress.com/2013/05/screen-shot-2013-05-23-at-23-59-45.png)
-![Figure 3 – User sites view](http://musarra.files.wordpress.com/2013/05/screen-shot-2013-05-23-at-23-59-45.png)
-![Figure 4 – User roles view](http://musarra.files.wordpress.com/2013/05/screen-shot-2013-05-23-at-23-59-45.png)
-![Figure 5 – User categorization view](http://musarra.files.wordpress.com/2013/05/screen-shot-2013-05-23-at-23-59-45.png)
-![Figure 6 – User display settings view](http://musarra.files.wordpress.com/2013/05/screen-shot-2013-05-23-at-23-59-45.png)
-![Figure 7 – User custom fields view](http://musarra.files.wordpress.com/2013/05/screen-shot-2013-05-23-at-23-59-45.png)
+![Figure 1 – List of new imported users](http://www.dontesta.it/blog/wp-content/uploads/2013/11/new_imported_users.png)
+![Figure 2 – User details view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_details.png)
+![Figure 3 – User sites view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_sites.png)
+![Figure 4 – User roles view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_roles.png)
+![Figure 5 – User categorization view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_categorization.png)
+![Figure 6 – User display settings view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_display_settings.png)
+![Figure 7 – User custom fields view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_custom_fields.png)
+![Figure 8 – Search user by tag name](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_search_by_tag.png)
