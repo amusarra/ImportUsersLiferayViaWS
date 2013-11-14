@@ -22,6 +22,19 @@ List 1. Clone repository and build the package
 	$ java -Dusername=admin -Dpassword=admin -jar -DfileToImport=src/main/resources/users_for_import_liferay.xlsx target/import-users-liferay-via-ws-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 List 2. Run the portal client example
 
+The program will by default try to connect to the services of your local installation of Liferay.You can specify connection parameters using the following parameters:
+
+* -DliferayAddressProtocol: Specify the protocol: http or https (default http)
+* -DliferayAddressPort: Specify the tcp port (default 8080)
+* -DliferayAddressFQDN: Specify the hostname or fqdn (default localhost)
+* -Dusername: Specify the username (default test)
+* -Dpassword: Specify the password (default test)
+* -DfileToImport: Specify the valid path of the excel file
+
+$ java -DliferayAddressProtocol=http -DliferayAddressPort=8080 -DliferayAddressFQDN=localhost -Dusername=admin -Dpassword=admin -DfileToImport=/Users/amusarra/Documents/workspace-myBlog/import-users-liferay-via-ws/src/main/resources/users_for_import_liferay.xlsx -jar target/import-users-liferay-via-ws-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+List 3. A complete example with all parameters
+
+
 	
 	2013-11-14 13:48:13,892 [main] INFO  it.dontesta.liferay.example.portal.client.ImportUsersToLiferay - Try lookup User Service by End Point: http://admin:admin@localhost:8080/api/secure/axis/Portal_UserService...
 	2013-11-14 13:48:14,343 [main] INFO  it.dontesta.liferay.example.portal.client.ImportUsersToLiferay - Try lookup Company Service by End Point: http://admin:admin@localhost:8080/api/secure/axis/Portal_CompanyService...
@@ -37,11 +50,13 @@ List 2. Run the portal client example
 	
 List 3. Show the performed tasks.
 
-![Figure 1 – List of new imported users](http://www.dontesta.it/blog/wp-content/uploads/2013/11/new_imported_users.png)
-![Figure 2 – User details view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_details.png)
-![Figure 3 – User sites view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_sites.png)
-![Figure 4 – User roles view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_roles.png)
-![Figure 5 – User categorization view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_categorization.png)
-![Figure 6 – User display settings view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_display_settings.png)
-![Figure 7 – User custom fields view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_custom_fields.png)
-![Figure 8 – Search user by tag name](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_search_by_tag.png)
+
+![Figure 1 – Excel file format](http://www.dontesta.it/blog/wp-content/uploads/2013/11/excel_file_format.png)
+![Figure 2 – List of new imported users](http://www.dontesta.it/blog/wp-content/uploads/2013/11/new_imported_users.png)
+![Figure 3 – User details view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_details.png)
+![Figure 4 – User sites view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_sites.png)
+![Figure 5 – User roles view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_roles.png)
+![Figure 6 – User categorization view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_categorization.png)
+![Figure 7 – User display settings view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_display_settings.png)
+![Figure 8 – User custom fields view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_custom_fields.png)
+![Figure 9 – Search user by tag name](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_search_by_tag.png)
