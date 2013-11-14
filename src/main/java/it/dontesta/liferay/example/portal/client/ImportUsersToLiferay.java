@@ -77,7 +77,7 @@ public class ImportUsersToLiferay {
 	static final String LIFERAY_USER_NAME = (System.getProperty("username") != null) ? System
 			.getProperty("username") : "test";
 	static final String LIFERAY_USER_PASSWORD = (System.getProperty("password") != null) ? System
-			.getProperty("username") : "test";
+			.getProperty("password") : "test";
 
 	static final String USER_SERVICE = "Portal_UserService";
 	static final String COMPANY_SERVICE = "Portal_CompanyService";
@@ -93,7 +93,8 @@ public class ImportUsersToLiferay {
 		try {
 			long userId = 0;
 			long companyId = 0;
-			String virtualHost = "localhost";
+			String virtualHost = (System.getProperty("liferayCompanyVirtualHost") != null) ? System
+					.getProperty("liferayCompanyVirtualHost") : "localhost";
 			
 			URL userServiceEndPoint = _getURL(LIFERAY_USER_NAME,
 					LIFERAY_USER_PASSWORD, USER_SERVICE);
@@ -162,7 +163,7 @@ public class ImportUsersToLiferay {
 		final String LIFERAY_PROTOCOL = "http://";
 		final String LIFERAY_TCP_PORT = "8080";
 		final String LIFERAY_FQDN = "localhost";
-		final String LIFERAY_AXIS_PATH = "/api/secure/axis/";
+		final String LIFERAY_AXIS_PATH = "/api/axis/";
 		
 		String liferayAddressProtocol = System.getProperty("liferayAddressProtocol");
 		String liferayAddressPort = System.getProperty("liferayAddressPort");
