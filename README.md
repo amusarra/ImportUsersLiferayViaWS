@@ -62,38 +62,38 @@ List 3. A complete example with all parameters
 List 3. Show the performed tasks.
 
 
-![Figure 1 – Excel file format](http://www.dontesta.it/blog/wp-content/uploads/2013/11/excel_file_format.png)
+![Figure 1 – Excel file format](https://www.dontesta.it/wp-content/uploads/2013/11/excel_file_format.png)
 
 Figure 1 – Excel file format
 
-![Figure 2 – List of new imported users](http://www.dontesta.it/blog/wp-content/uploads/2013/11/new_imported_users.png)
+![Figure 2 – List of new imported users](https://www.dontesta.it/wp-content/uploads/2013/11/new_imported_users.png)
 
 Figure 2 – List of new imported users
 
-![Figure 3 – User details view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_details.png)
+![Figure 3 – User details view](https://www.dontesta.it/wp-content/uploads/2013/11/user_details.png)
 
 Figure 3 – User details view
 
-![Figure 4 – User sites view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_sites.png)
+![Figure 4 – User sites view](https://www.dontesta.it/wp-content/uploads/2013/11/user_sites.png)
 
 Figure 4 – User sites view
 
-![Figure 5 – User roles view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_roles.png)
+![Figure 5 – User roles view](https://www.dontesta.it/wp-content/uploads/2013/11/user_roles.png)
 
 Figure 5 – User roles view
 
-![Figure 6 – User categorization view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_categorization.png)
+![Figure 6 – User categorization view](https://www.dontesta.it/wp-content/uploads/2013/11/user_categorization.png)
 
 Figure 6 – User categorization view
 
-![Figure 7 – User display settings view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_display_settings.png)
+![Figure 7 – User display settings view](https://www.dontesta.it/wp-content/uploads/2013/11/user_display_settings.png)
 
 Figure 7 – User display settings view
 
-![Figure 8 – User custom fields view](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_custom_fields.png)
+![Figure 8 – User custom fields view](https://www.dontesta.it/wp-content/uploads/2013/11/user_custom_fields.png)
 
 Figure 8 – User custom fields view
 
-![Figure 9 – Search user by tag name](http://www.dontesta.it/blog/wp-content/uploads/2013/11/user_search_by_tag.png)
+![Figure 9 – Search user by tag name](https://www.dontesta.it/wp-content/uploads/2013/11/user_search_by_tag.png)
 
 Figure 9 – Search user by tag name
